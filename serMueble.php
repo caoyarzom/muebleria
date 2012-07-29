@@ -6,13 +6,9 @@
     </head>
     <body>
         <section class="cont_muebles">
-            
-            
+                      
             
         </section>
-        
-        <?php
-        // put your code here
-        ?>
+                
     </body>
 </html>
