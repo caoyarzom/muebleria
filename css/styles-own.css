@@ -1,0 +1,19 @@
+/* 
+    Document   : styles-own
+    Created on : 13-07-2012, 07:06:19 PM
+    Author     : tinguinito
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.cont_muebles{
+    border-radius: 0.2em;
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    -o-border-radius: 0.2em;
+    -ms-border-radius: 0.2em;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px;
+    
+    
+}

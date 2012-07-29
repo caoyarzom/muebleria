@@ -1,0 +1,80 @@
+/*
+
+Source of the tutorial/script: http://tympanus.net/codrops/2011/07/12/animated-text-and-icon-menu/
+
+Sliding Text and Icon Menu Style*/
+
+.ic-menu{
+	width:100%;
+	position:relative;
+}
+.ic-menu li{
+	float:left;
+	width:275px;
+	height:340px;
+	margin-left:10px;
+}
+.ic-menu li:first-child {margin-left:0}
+.ic-menu li a{
+	display:block;
+	overflow:hidden;
+	background:#95B53A;
+	text-align:center;
+	height:100%;
+	width:100%;
+	position:relative;
+
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+border-radius:5px;
+
+-webkit-box-shadow: inset 0 1px 1px rgba(255,255,255,0.3), inset 0 -1px 1px rgba(0,0,0,0.3), 0 5px 7px rgba(0,0,0,0.3);
+-moz-box-shadow: inset 0 1px 1px rgba(255,255,255,0.3), inset 0 -1px 1px rgba(0,0,0,0.3), 0 5px 7px rgba(0,0,0,0.3);
+box-shadow: inset 0 1px 1px rgba(255,255,255,0.3), inset 0 -1px 1px rgba(0,0,0,0.3), 0 5px 7px rgba(0,0,0,0.3);
+
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+transition: all 0.2s linear;
+}
+.ic-menu li.ic-current a { 
+-webkit-box-shadow:inset 0 1px 1px rgba(255,255,255,0.3), 0 0 20px rgba(0,0,0,0.8);
+-moz-box-shadow:inset 0 1px 1px rgba(255,255,255,0.3), 0 0 20px rgba(0,0,0,0.8);
+box-shadow:inset 0 1px 1px rgba(255,255,255,0.3), 0 0 20px rgba(0,0,0,0.8);
+}
+.ic-menu li a h2{
+	color:#fff;
+	font:700 22px/1.3 'Maven Pro',Tahoma,sans-serif;
+	text-transform:uppercase;
+	position:absolute;
+	padding:10px;
+	width:250px;
+	top:140px;
+	left:0px;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+}
+.ic-menu li a h3{
+	font-family: 'CartoGothicStdBook', arial, serif; 
+	font-size:16px;
+	line-height:1.4;
+	color: #fff;
+	position:absolute;
+	top:220px;
+	left:0px;
+	width:250px;
+	padding:10px;
+}
+.ic-icon{
+	width:100px;
+	height:100px;
+	position:absolute;
+	background-position:top left;
+	background-repeat:no-repeat;
+	background-color:transparent;
+	left:87px;
+	top:30px;
+}
+.ic-icon-item1{ background-image:url(../../images/sliders/interactive_content/item1.png);}
+.ic-icon-item2{	background-image:url(../../images/sliders/interactive_content/item2.png);}
+.ic-icon-item3{	background-image:url(../../images/sliders/interactive_content/item3.png);}
+.ic-icon-item4{	background-image:url(../../images/sliders/interactive_content/item4.png);}

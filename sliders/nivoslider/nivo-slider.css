@@ -1,0 +1,128 @@
+/*
+ * jQuery Nivo Slider v2.6
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2011, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+	height:350px;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:10px;
+	bottom:10px;
+	background:#000;
+	color:#fff;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width:920px;
+	z-index:8;
+	
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:80px;
+	cursor:pointer;
+	
+	background: url(../../images/plus-sprite.png) no-repeat;
+	display: block;
+	height: 32px;
+	width: 32px;
+	z-index: 200;
+	text-indent: -9999px;
+}
+.nivo-directionNav .nivo-prevNav {left:-32px;  bottom:70px; top:auto;
+background-position: 0 -32px;
+-webkit-border-top-left-radius: 3px;
+-webkit-border-bottom-left-radius: 3px;
+-moz-border-radius-topleft: 3px;
+-moz-border-radius-bottomleft: 3px;
+border-top-left-radius: 3px;
+border-bottom-left-radius: 3px;
+}
+.nivo-directionNav .nivo-prevNav:hover{background-position: 0 0;}
+
+.nivo-directionNav .nivo-nextNav {right:-32px;
+background-position: -32px -32px;
+-webkit-border-top-right-radius: 3px;
+-webkit-border-bottom-right-radius: 3px;
+-moz-border-radius-topright: 3px;
+-moz-border-radius-bottomright: 3px;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+}
+.nivo-directionNav .nivo-nextNav:hover{background-position: -32px 0;}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {position:absolute; left:50%; bottom:-30px; margin-left:-35px;}
+.nivo-controlNav a {
+	position:relative;
+	z-index:9;
+	cursor:pointer;
+	
+	display: block;
+	float: left;
+	height: 10px;
+	margin: 0 8px 0 0;
+	width: 10px;
+	background:rgba(0, 0, 0, 0.4);
+	text-indent: -9999px; 
+	font-size: 0;
+	outline:0 none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+	background:rgba(0, 0, 0, 0.9);
+}

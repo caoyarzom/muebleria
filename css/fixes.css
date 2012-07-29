@@ -1,0 +1,10 @@
+.browserIE7 #icon-widgets { background:none;}
+.browserIE7 #icon-widgets .icon-menu { background:url('../php-includes/rgba_94747ff6.php'); }
+.browserIE7 .projects.recent .container_12 {padding-bottom:30px;}
+.browserIE7 .title-square {display:inline;}
+.browserIE7 #flickr_container {zoom:1;}
+.browserIE7 #flickr_container li {margin-right:10px;}
+.browserIE7 div.anythingSlider .thumbNav li a {display:block !important;}
+.browserIE7 #slideshow .page-title {color:#eee;}
+.browserIE7 .projects .items li:hover {z-index:998;}
+.browserIE7 .tabs-clean-style, .browserIE8 .tabs-clean-style {border:1px solid #dfdfdf}
