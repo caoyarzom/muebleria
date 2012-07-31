@@ -8,29 +8,29 @@
 
 .cont_muebles{
     border-radius: 0.2em;
-    -webkit-border-radius: 0.2em;
+/*    -webkit-border-radius: 0.2em;
     -moz-border-radius: 0.2em;
     -o-border-radius: 0.2em;
-    -ms-border-radius: 0.2em;
+    -ms-border-radius: 0.2em;*/
     box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px;
-    
-    
+/*    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px;*/
+
+
 }
 #contenedor_serv{
     display: inline-block;
     width: 938px;
     height: 433px;
-    
+
 }
- .orga-imaganes{
+.orga-imaganes{
 
     background: #958055;
     border-radius: 0.5em;
-    -webkit-border-radius: 0.5em;
+/*    -webkit-border-radius: 0.5em;*/
     box-shadow: rgba(255, 255, 255, 0.8) 0px 5px 10px inset;
-    -webkit-box-shadow: rgba(255, 255, 255, 0.8) 0px 5px 10px inset;
-/*    color: #FFF;*/
+/*    -webkit-box-shadow: rgba(255, 255, 255, 0.8) 0px 5px 10px inset;*/
+    /*    color: #FFF;*/
     cursor: pointer;
     display: inline-block;
     margin: 0.5em;
@@ -38,32 +38,38 @@
     width: 16%;
 
     transition: transform 0.5s linear;
-    -webkit-transition: -webkit-transform 0.5s linear;
+/*    -webkit-transition: -webkit-transform 0.5s linear;*/
     z-index:1;
 }
- .orga-imaganes h2{
-     color: #FFF;
+.orga-imaganes h2{
+    color: #FFF;
     text-align: center;
     font-size: 1em;
     margin: 0.5em auto;
     font-weight: bold;
 
 }
- .orga-imaganes p{
-     color: #FFF;
+.orga-imaganes p{
+    color: #FFF;
     font-size: 0.8em;
     margin: 0.1em auto;
     text-align: center;
 }
- .orga-imaganes:hover{    
+.orga-imaganes:hover{    
     transition: transform 0.2s linear;
-    -webkit-transition: -webkit-transform 0.2s linear;
+/*    -webkit-transition: -webkit-transform 0.2s linear;*/
     z-index:50;
-    -moz-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
+/*    -moz-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
     -webkit-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
     -o-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
-    -ms-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
+    -ms-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);*/
     transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
 }
 
 /* End Fotos hover*/
+#thumbs{
+/*    border-radius: 0.2em;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px;*/
+    margin: 1em 0.9em 0em 1em;
+    padding: 0.9em;
+}

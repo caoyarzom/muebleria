@@ -747,8 +747,18 @@ body.interactive_content .ic-container { width:1130px; left:50%; margin-top:200p
 
 /* NIVO SLIDER */
 .nivo-slider #slideshow {height:762px;}
-.nivo-slider #container {top:585px;}
-.nivo-slider .ns-container { width:940px; left:50%; margin-top:150px; margin-left:-550px; min-height:350px; position:relative; padding:0 80px 20px; background:url(../images/slider-shadow.png) no-repeat center bottom;}
+.nivo-slider #container {top:605px;}
+.nivo-slider .ns-container {
+    width:940px; left:50%; 
+    margin-top:150px;
+    margin-left:-550px; 
+    min-height:350px;
+    position:relative;
+    padding:0 80px 20px; 
+    background:url(../images/slider-shadow.png) no-repeat center bottom;
+/*    border-radius: 0.2em;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px;*/
+}
 
 /* WOW SLIDER */
 .wow-slider #slideshow {height:770px;}
