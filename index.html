@@ -92,6 +92,11 @@
                 //$(".ns-container").load("serMueble.php");
                     $(".ns-container").load("gal_cncn.php");
                 });
+                $('#cliente').click(function () {
+                    $('#slider').hide();
+                //$(".ns-container").load("serMueble.php");
+                    $(".ns-container").load("cliente.php");
+                });
                 
             });
         </script> 
@@ -123,10 +128,10 @@
                                     <li id="menu_ser_cncn"><a href="#">Cortes CNC</a></li>
                                 </ul>
                             </li>
-                            <li><a href="./company.html">Clientes</a>
-                                <ul>
+                            <li id="cliente"><a href='#'>Clientes</a>
+                                <!--<ul>
                                     <li><a href="#">Company</a></li>
-                                </ul>
+                                </ul>-->
                             </li>
                             <li><a href="#">Portafolio</a>
                                 <ul>

@@ -23,3 +23,47 @@
     height: 433px;
     
 }
+ .orga-imaganes{
+
+    background: #958055;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    box-shadow: rgba(255, 255, 255, 0.8) 0px 5px 10px inset;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.8) 0px 5px 10px inset;
+/*    color: #FFF;*/
+    cursor: pointer;
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 16%;
+
+    transition: transform 0.5s linear;
+    -webkit-transition: -webkit-transform 0.5s linear;
+    z-index:1;
+}
+ .orga-imaganes h2{
+     color: #FFF;
+    text-align: center;
+    font-size: 1em;
+    margin: 0.5em auto;
+    font-weight: bold;
+
+}
+ .orga-imaganes p{
+     color: #FFF;
+    font-size: 0.8em;
+    margin: 0.1em auto;
+    text-align: center;
+}
+ .orga-imaganes:hover{    
+    transition: transform 0.2s linear;
+    -webkit-transition: -webkit-transform 0.2s linear;
+    z-index:50;
+    -moz-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
+    -webkit-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
+    -o-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
+    -ms-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
+    transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
+}
+
+/* End Fotos hover*/
