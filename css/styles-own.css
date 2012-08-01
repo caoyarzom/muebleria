@@ -8,12 +8,12 @@
 
 .cont_muebles{
     border-radius: 0.2em;
-/*    -webkit-border-radius: 0.2em;
-    -moz-border-radius: 0.2em;
-    -o-border-radius: 0.2em;
-    -ms-border-radius: 0.2em;*/
+    /*    -webkit-border-radius: 0.2em;
+        -moz-border-radius: 0.2em;
+        -o-border-radius: 0.2em;
+        -ms-border-radius: 0.2em;*/
     box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px;
-/*    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px;*/
+    /*    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px;*/
 
 
 }
@@ -27,9 +27,9 @@
 
     background: #958055;
     border-radius: 0.5em;
-/*    -webkit-border-radius: 0.5em;*/
+    /*    -webkit-border-radius: 0.5em;*/
     box-shadow: rgba(255, 255, 255, 0.8) 0px 5px 10px inset;
-/*    -webkit-box-shadow: rgba(255, 255, 255, 0.8) 0px 5px 10px inset;*/
+    /*    -webkit-box-shadow: rgba(255, 255, 255, 0.8) 0px 5px 10px inset;*/
     /*    color: #FFF;*/
     cursor: pointer;
     display: inline-block;
@@ -38,7 +38,7 @@
     width: 16%;
 
     transition: transform 0.5s linear;
-/*    -webkit-transition: -webkit-transform 0.5s linear;*/
+    /*    -webkit-transition: -webkit-transform 0.5s linear;*/
     z-index:1;
 }
 .orga-imaganes h2{
@@ -57,19 +57,19 @@
 }
 .orga-imaganes:hover{    
     transition: transform 0.2s linear;
-/*    -webkit-transition: -webkit-transform 0.2s linear;*/
+    /*    -webkit-transition: -webkit-transform 0.2s linear;*/
     z-index:50;
-/*    -moz-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
-    -webkit-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
-    -o-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
-    -ms-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);*/
+    /*    -moz-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
+        -webkit-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
+        -o-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
+        -ms-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);*/
     transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
 }
 
 /* End Fotos hover*/
 #thumbs{
-/*    border-radius: 0.2em;
-    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px;*/
+    /*    border-radius: 0.2em;
+        box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px;*/
     margin: 1em 0.9em 0em 1em;
     padding: 0.9em;
 }
@@ -86,6 +86,57 @@
     text-align: center;
     font-size: 2em;
     margin: 0.4em auto;
-   font-weight: bold;
+    font-weight: bold;
 
 }
+/*************************Conacto*************************************************/
+.ns-container #cuerpoContacto{
+    width: 938px;
+    height: 433px;
+}
+.ns-container #cuerpoContacto #contenedorContacto{
+    display: inline-block;
+    height: 30em;
+    width: 100%;
+
+}
+#contenedorContacto .columnaContacto1{
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+}	
+
+
+#formulario
+{
+    margin: 0em auto;
+    padding: 0.4em;
+    width: 65%;
+}
+#formulario input
+{
+    display: block;
+    margin: 0.5em auto;
+    width: 97%;
+}
+#formulario textarea
+{
+    display: block;
+    margin: 0.5em auto;
+    width: 97%;
+}
+#formulario input[type="submit"]
+{
+    border:none;
+    color:#797979;
+    cursor:pointer;
+    border-radius: 0.5em;
+    box-shadow: rgba(255, 255, 255, 0.8) 0px 5px 10px inset;
+    font-size:20px;
+    font-weight:bold;
+    width: 51%;
+}
+
+.columnaContacto1 legend {font-size:120%;} 
+.columnaContacto1 #formulario input, textarea {border:1px solid #000;} 
+.columnaContacto1 #formulario input:focus, textarea:focus {background:#FFF799;} 

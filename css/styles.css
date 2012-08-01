@@ -303,6 +303,7 @@ background: linear-gradient(top, #a30a0a 0%,#d11313 100%);
 ::selection { color: #fff !important; background: #eb540a; }
 
 /* INPUT, TEXTAREA, SUBMIT */
+/*
 input {margin:0; padding:0;}
 input[type=text], input[type=password], textarea { border:1px solid #e3e3e3; padding:7px; font-size:11px; color:#777; }
 input[type=text], input[type=password], textarea, select { background: #ffffff;
@@ -323,6 +324,7 @@ input[type=submit], button { background:#EB540A; padding: 4px 14px; color:#fff; 
 -webkit-box-shadow: 0 2px 6px rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 2px 6px rgba(255, 255, 255, 0.5) inset; box-shadow: 0 2px 6px rgba(255, 255, 255, 0.5) inset; }
 input[type=submit]:hover, button:hover { -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.4), 0 -2px 6px rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.4), 0 -2px 6px rgba(255, 255, 255, 0.5) inset; box-shadow: 0 0 3px rgba(0, 0, 0, 0.4), 0 -2px 6px rgba(255, 255, 255, 0.5) inset;}
 input[type=submit]:active, button:active {-webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5) inset; -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5) inset; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5) inset;}
+*/
 /* you can activate the rounded fields only setting the .rounded-fields class to the parent form */
 .rounded-fields input[type=text], .rounded-fields input[type=password], .rounded-fields textarea, .rounded-fields select, .rounded-fields input[type=submit], .rounded-fields button {-webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;  }
 
