@@ -73,3 +73,19 @@
     margin: 1em 0.9em 0em 1em;
     padding: 0.9em;
 }
+.parrafo_orga{
+    font-size: 1.04em;
+    margin: 0.1em auto;
+    text-align: justify;
+    width: 50em;  
+    color: #2B2A2A;
+
+}
+.parrafo_Sub_orga{
+    color: #2B2A2A;
+    text-align: center;
+    font-size: 2em;
+    margin: 0.4em auto;
+   font-weight: bold;
+
+}

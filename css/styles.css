@@ -683,7 +683,10 @@ padding: 9px 14px; color:#fff; text-shadow:0 1px 0 rgba(0,0,0,0.5); text-transfo
 #slideshow {height:358px;}
 #container {top:189px;}
 
-#slideshow {position:absolute; top:0; left:0; z-index:-1; overflow: hidden; width:100%; background:url(../images/bg-slider.jpg)  repeat center top #958055 /*#eb540a*/;}
+#slideshow {position:absolute; top:0; left:0; z-index:-1; overflow: hidden; width:100%; 
+            background:url("../images/bg-slider.jpg")  repeat center top #958055 /*#eb540a*/;
+}
+
 #slideshow .shadow-up {position:absolute; width:918px; height:20px; bottom:178px; left:50%; margin-left:-459px; background:url(../images/shadow-up.png) no-repeat; z-index:1;}
 
 /* PAGE TITLE */
