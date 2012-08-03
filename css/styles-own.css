@@ -19,24 +19,23 @@
 }
 #contenedor_serv{
     display: inline-block;
-    width: 938px;
-    height: 433px;
+    width: 1020px;
+    height: 425px;
 
 }
 .orga-imaganes{
 
     background: #958055;
-    border-radius: 0.5em;
-    /*    -webkit-border-radius: 0.5em;*/
-    box-shadow: rgba(255, 255, 255, 0.8) 0px 5px 10px inset;
+    border-radius: 0.2em;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px inset;
     /*    -webkit-box-shadow: rgba(255, 255, 255, 0.8) 0px 5px 10px inset;*/
     /*    color: #FFF;*/
     cursor: pointer;
     display: inline-block;
     margin: 0.5em;
     padding: 0.5em;
-    width: 16%;
-
+    width: 14%;
+text-align: center;
     transition: transform 0.5s linear;
     /*    -webkit-transition: -webkit-transform 0.5s linear;*/
     z-index:1;

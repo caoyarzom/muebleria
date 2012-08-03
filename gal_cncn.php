@@ -82,7 +82,7 @@
          <script>
             	jQuery(document).ready(function($) {
 				// We only want these styles applied when javascript is enabled
-				$('div.navigation').css({'width' : '274px', 'float' : 'left', 'margin':'1em'});
+				$('div.navigation').css({'width' : '370px', 'float' : 'left', 'margin':'1em'});
 				$('div.content').css('display', 'block');
 
 				// Initially set opacity on thumbs and add
@@ -136,6 +136,6 @@
             
         </script>
     </section>
-        </body>
-    
+    </body>
+        
 </html>

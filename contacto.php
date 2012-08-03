@@ -1,4 +1,10 @@
-
+<script >
+    $(document).ready(function() {
+        window.setTimeout(function() {
+            $("#cuerpoContacto").delay(100).fadeIn("fast");
+        }, 200);
+           });
+</script>
 <div id="cuerpoContacto">
     <div id="contenedorContacto">
         <div class="columnaContacto1">
@@ -13,7 +19,7 @@
             </div>
         </div>
         <div class="columnaContacto1" >
-            <form accept-charset="UTF-8"  method="post" name="formularioo" id="formulario">
+            <form accept-charset="UTF-8"  method="post" name="formulario" id="formulario" action="enviarMail.php">
                 <fieldset><h3>CONTACTENOS</h3>
                     <label for="nombre">¿Cúal es su nombre?</label>
                     <input type="text" id="nombre" name="nombre" required placeholder="Escriba su nombre acá" value=""/>
