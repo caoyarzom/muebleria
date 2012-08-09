@@ -18,6 +18,7 @@
                 </div>
             </div>
         </div>
+        <div class="separador" ><img src="images/shadow-vertical.png" /></div>
         <div class="columnaContacto1" >
             <form accept-charset="UTF-8"  method="post" name="formulario" id="formulario" action="enviarMail.php">
                 <fieldset><h3>CONTACTENOS</h3>

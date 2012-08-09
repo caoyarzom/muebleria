@@ -2,7 +2,7 @@ div.content {
     /* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
     display: none;
     float: right;
-    width: 620px; 
+    width: 605px; 
 }
 div.content a, div.navigation a {
     text-decoration: none;
@@ -26,7 +26,7 @@ div.nav-controls {
 }
 div.slideshow-container {
     position: relative;
-    clear: both;
+/*    clear: both;*/
 /*    height: 502px;  This should be set to be at least the height of the largest image in the slideshow */
 }
 div.loader {

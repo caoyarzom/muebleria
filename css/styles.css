@@ -20,7 +20,7 @@ IMPORTANT TIPS:
     font-style: normal;
 }
 html {overflow-x:hidden;}
-body { font-family: Arial, Helvetica, tahoma sans-serif; font-size:12px; line-height:1.6; color:#EB540A; }
+body { font-family: Century Gothic, Arial, Helvetica, tahoma sans-serif; font-size:12px; line-height:1.6; color:#EB540A; }
 
 /* Heading */
 h1, h2, h3, h4, h5, h6 { font-weight:normal; color:#454545; font-family: 'Maven Pro',Tahoma,sans-serif; line-height:1; }
@@ -622,12 +622,27 @@ table.box-style tr:hover td {background:#eee;color:#444;}
 /* BEGIN TEMPLATE */
 #header {position:relative; 
 /*         z-index:9999; */
-         background:url('../php-includes/rgba_94737ff6.php'); background:rgba(0,0,0,0.6); border-top:1px solid rgba(0,0,0,0.8); border-bottom:1px solid rgba(0,0,0,0.8); margin-top:20px;}
+         background:url('../php-includes/rgba_94737ff6.php'); 
+/*         background:rgba(0,0,0,0.6); */
+         border-top:1px solid rgba(0,0,0,0.8);
+         border-bottom:1px solid rgba(0,0,0,0.8); 
+/*         margin-top:20px;*/
+}
 #header .shadow-down {position:absolute; width:918px; height:20px; bottom:-20px; left:50%; margin-left:-459px; background:url(../images/shadow-down.png) no-repeat;}
 #header ul.menu {float:right; margin:0;}
 #header ul.menu li {float:left; margin-left:15px; padding-left:15px; background:url(../images/menu-separator.png) no-repeat left center; }
 #header ul.menu li:first-child {margin-left:0; padding-left:0; background:none;}
-#header ul.menu li a {font:13px/1 'CartoGothicStdBook', arial, serif; color:#fff; text-shadow:1px 1px 0 #000; padding:28px 5px; display:block; text-transform:uppercase; opacity:0.8; filter:alpha(opacity=80); cursor: pointer;}
+#header ul.menu li a {
+    font:13px/1 Century Gothic, 'CartoGothicStdBook', arial, serif; 
+    color:#fff; 
+    text-shadow:1px 1px 0 #000;
+    padding:12px 4px; 
+    display:block; 
+    text-transform:uppercase; 
+    opacity:0.8; 
+    filter:alpha(opacity=80); 
+    cursor: pointer;
+}
 #header ul.menu li a:hover, #header ul.menu li.active a {opacity:1; filter:alpha(opacity=100);}
 #header ul.menu li .hover-mask {}
 #header ul.menu ul { background:url('../php-includes/rgba_94727ff6.php'); background:rgba(0,0,0,0.7); margin-top:0px; }
@@ -635,10 +650,10 @@ table.box-style tr:hover td {background:#eee;color:#444;}
 #header ul.menu ul li a { font:12px/1  Arial, Helvetica, sans-serif; color:#ccc; padding:11px 10px; text-transform:none; display:block; margin:0 4px; border-top:1px solid #000; opacity:1; filter:alpha(opacity=100); }
 #header ul.menu ul li a:hover { color:#fff;}
 #header ul.menu ul li:first-child > a {border-top:none;}
-#header ul.menu li a > .sf-sub-indicator {top:3.6em !important; left:50%; margin-left:-5px; right:auto !important;}
+#header ul.menu li a > .sf-sub-indicator {top:2.1em !important; left:50%; margin-left:-5px; right:auto !important;}
 #header ul.menu li li a > .sf-sub-indicator {top:50% !important; margin-top:-5px; left:95% !important;}
 #header .sf-menu > li:hover > ul,
-#header .sf-menu > li.sfHover > ul { top:5.9em;}
+#header .sf-menu > li.sfHover > ul { top:3.6em;}
 
 /* second header model styling */
 .style2#header {background-color:transparent; border:none;}
@@ -754,7 +769,7 @@ body.interactive_content .ic-container { width:1130px; left:50%; margin-top:200p
 
 /* NIVO SLIDER */
 .nivo-slider #slideshow {height:762px;}
-.nivo-slider #container {top:605px;}
+.nivo-slider #container {top:630px;}
 .nivo-slider .ns-container {
     width:1020px; 
     /*    left:50%; 
@@ -766,7 +781,7 @@ body.interactive_content .ic-container { width:1130px; left:50%; margin-top:200p
 /*    margin: 160px;*/
     vertical-align: middle;
     display: inline-block;
-        margin: 140px 160px 160px 160px;
+        margin: 185px 160px 160px 160px;
     /*    background:url(../images/slider-shadow.png) no-repeat center bottom;*/
     border-radius: 0.2em;
     box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px;
@@ -867,7 +882,7 @@ h3.title-square {background-color:#cbcbcb; padding:5px 10px; font-size:22px; lin
 .bottom .shadow-up {position:absolute; width:918px; height:20px; top:-25px; left:50%; margin-left:-459px; background:url(../images/shadow-up.png) no-repeat; z-index:1; opacity:0.5; filter:alpha(opacity=50);}
 .bottom a {color:#cbcbcb; }
 .bottom a:hover {color:#fff;}
-.bottom h3.title {font:13px/1 'CartoGothicStdBook', arial, serif; color:#fff;}
+.bottom h3.title {font:13px/1 Century Gothic, 'CartoGothicStdBook', arial, serif; color:#fff;}
 .map_link {background:url(../images/map_pin_stroke_12x12.png) no-repeat left center; padding-left:15px;}
 
 #testimonials {overflow:hidden;}

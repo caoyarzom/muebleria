@@ -35,7 +35,7 @@
     margin: 0.5em;
     padding: 0.5em;
     width: 14%;
-text-align: center;
+    text-align: center;
     transition: transform 0.5s linear;
     /*    -webkit-transition: -webkit-transform 0.5s linear;*/
     z-index:1;
@@ -50,7 +50,7 @@ text-align: center;
 }
 .orga-imaganes p{
     color: #FFF;
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin: 0.1em auto;
     text-align: center;
 }
@@ -64,6 +64,49 @@ text-align: center;
         -ms-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);*/
     transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
 }
+.portafolio_galeria{
+
+    background: #958055;
+    border-radius: 0.2em;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px inset;
+    /*    -webkit-box-shadow: rgba(255, 255, 255, 0.8) 0px 5px 10px inset;*/
+    /*    color: #FFF;*/
+    cursor: pointer;
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.5em;
+/*    width: 14%;*/
+    text-align: center;
+    transition: transform 0.5s linear;
+    /*    -webkit-transition: -webkit-transform 0.5s linear;*/
+    z-index:1;
+}
+.portafolio_galeria h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 1em;
+    margin: 0.5em auto;
+    font-weight: bold;
+
+}
+.portafolio_galeria p{
+    color: #FFF;
+    font-size: 0.9em;
+    margin: 0.1em auto;
+    text-align: center;
+    
+}
+.portafolio_galeria:hover{    
+    transition: transform 0.2s linear;
+    /*    -webkit-transition: -webkit-transform 0.2s linear;*/
+    z-index:50;
+    /*    -moz-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
+        -webkit-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
+        -o-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
+        -ms-transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);*/
+    transform: scale(1.1) rotate(0.3deg) translate(0px, 0px) skew(0deg, 0deg);
+}
+
 
 /* End Fotos hover*/
 #thumbs{
@@ -83,15 +126,15 @@ text-align: center;
 .parrafo_Sub_orga{
     color: #2B2A2A;
     text-align: center;
-    font-size: 2em;
-    margin: 0.4em auto;
+    font-size: 2.3em;
+    margin: 0.6em auto;
     font-weight: bold;
 
 }
 /*************************Conacto*************************************************/
 .ns-container #cuerpoContacto{
     width: 938px;
-    height: 433px;
+    height: 412px;
 }
 .ns-container #cuerpoContacto #contenedorContacto{
     display: inline-block;
@@ -104,7 +147,16 @@ text-align: center;
     width: 45%;
     vertical-align: middle;
 }	
-
+.separador{
+    display: inline-block;
+    width: 1%;
+    vertical-align: middle;
+}
+.separador-2{
+    display: inline-block;
+    width: 1%;
+    float: left;
+}
 
 #formulario
 {
@@ -139,3 +191,55 @@ text-align: center;
 .columnaContacto1 legend {font-size:120%;} 
 .columnaContacto1 #formulario input, textarea {border:1px solid #000;} 
 .columnaContacto1 #formulario input:focus, textarea:focus {background:#FFF799;} 
+
+/*Estilos Franja */
+#franja {position:relative; 
+         /*         z-index:9999; */
+         background:url('../php-includes/rgba_94737ff6.php'); 
+         background:rgba(0,0,0,0.6); 
+         border-top:1px solid rgba(0,0,0,0.8);
+         border-bottom:1px solid rgba(0,0,0,0.8); 
+         /*         margin-top:20px;*/
+}
+.franja_logos{
+
+    padding:6px 4px; 
+    display:inline-block; 
+    opacity:0.8; 
+    filter:alpha(opacity=80); 
+
+}
+.franja_logos img {
+
+    margin: auto 16em;
+
+}
+.subcontendor{
+    display: inline-block;
+    width: 450px;
+    /*    height: 450px;*/
+    vertical-align: top;
+    margin: 0.9em 3em 0.9em 0.9em;
+
+}
+.subcontendor .text_galeria{
+    border-radius: 5.2em 0.2em 5.2em 0.2em ;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px;
+    background: #fff;
+    display: inline-block;
+    width: 90%;
+    padding: 55px 0;
+}
+.subcontendor .text_galeria ul{
+    text-align: left;
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 2em;
+    font-size: 1.08em;
+    
+}
+.subcontendor .text_galeria #slider2 .bx-wrapper {
+    margin: 0 auto;
+
+}
+
