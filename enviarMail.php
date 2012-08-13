@@ -71,7 +71,7 @@ if ($listaDeErrores != "listaVacia") {
 
     if (mail("contacto@dev-websur.tk", $asunto, $mensajeCompleto, $header)) {
         echo "<p style='text-align:center;'>Su mensaje ha sido enviado</p>";
-        header("location:./index.html");
+       header("location:./index.php");
     } else {
         echo "<p style='text-align:center;'>Hay problemas de comunicacion con el servidor</p>";
     }

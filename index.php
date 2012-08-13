@@ -1,6 +1,6 @@
-<?php   
-require('visitas/countbdd.php');   
-echo $men;   
+<?php //   
+//require('visitas/countbdd.php');   
+//echo $men;   
 ?>  
 <!DOCTYPE html>
 <html>
@@ -134,7 +134,7 @@ echo $men;
                     <div class="container_12">
                         <div class="grid_9 omega">
                             <ul class="menu sf-menu">
-                                <li><a href="./index.html">Home</a>
+                                <li><a href="./index.php">Home</a>
                                     
                                 <li><a >Servicios</a>
                                     <ul> 
@@ -177,6 +177,8 @@ echo $men;
                         <img src="./images/sliders/nivoslider/slide2.png" alt="" />
                         <img src="./images/sliders/nivoslider/slide3.png" alt="" />
                         <img src="./images/sliders/nivoslider/slide4.png" alt=""  />
+                        <img src="./images/sliders/nivoslider/slide5.png" alt=""  />
+                        <img src="./images/sliders/nivoslider/slide6.png" alt=""  />
                     </div>
                     <!--<div id="htmlcaption" class="nivo-html-caption">
                         <p> Imagenes de Nuestros Trabajos</p>
