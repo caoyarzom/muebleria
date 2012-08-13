@@ -25,8 +25,8 @@
 }
 .orga-imaganes{
 
-    background: #958055;
-    border-radius: 0.2em;
+    background: #000;
+    border-radius: 0.5em;
     box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px inset;
     /*    -webkit-box-shadow: rgba(255, 255, 255, 0.8) 0px 5px 10px inset;*/
     /*    color: #FFF;*/
@@ -43,7 +43,7 @@
 .orga-imaganes h2{
     color: #FFF;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.1em;
     margin: 0.5em auto;
     font-weight: bold;
 
@@ -66,8 +66,8 @@
 }
 .portafolio_galeria{
 
-    background: #958055;
-    border-radius: 0.2em;
+    background: #000;
+    border-radius: 0.5em;
     box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px inset;
     /*    -webkit-box-shadow: rgba(255, 255, 255, 0.8) 0px 5px 10px inset;*/
     /*    color: #FFF;*/
@@ -75,7 +75,7 @@
     display: inline-block;
     margin: 0.5em;
     padding: 0.5em;
-/*    width: 14%;*/
+    /*    width: 14%;*/
     text-align: center;
     transition: transform 0.5s linear;
     /*    -webkit-transition: -webkit-transform 0.5s linear;*/
@@ -84,7 +84,7 @@
 .portafolio_galeria h2{
     color: #FFF;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.1em;
     margin: 0.5em auto;
     font-weight: bold;
 
@@ -94,7 +94,7 @@
     font-size: 0.9em;
     margin: 0.1em auto;
     text-align: center;
-    
+
 }
 .portafolio_galeria:hover{    
     transition: transform 0.2s linear;
@@ -116,15 +116,15 @@
     padding: 0.9em;
 }
 .parrafo_orga{
-    font-size: 1.04em;
+    font-size: 1.09em;
     margin: 0.1em auto;
     text-align: justify;
     width: 50em;  
-    color: #2B2A2A;
+    color: #fff;
 
 }
 .parrafo_Sub_orga{
-    color: #2B2A2A;
+    color: #fff;
     text-align: center;
     font-size: 2.3em;
     margin: 0.6em auto;
@@ -146,7 +146,11 @@
     display: inline-block;
     width: 45%;
     vertical-align: middle;
-}	
+}
+#contenedorContacto .columnaContacto1 .cc1_txt .textoContacto p{
+    color: #fff;
+    font-size: 1.2em;
+}
 .separador{
     display: inline-block;
     width: 1%;
@@ -193,27 +197,30 @@
 .columnaContacto1 #formulario input:focus, textarea:focus {background:#FFF799;} 
 
 /*Estilos Franja */
-#franja {position:relative; 
-         /*         z-index:9999; */
-         background:url('../php-includes/rgba_94737ff6.php'); 
-         background:rgba(0,0,0,0.6); 
-         border-top:1px solid rgba(0,0,0,0.8);
-         border-bottom:1px solid rgba(0,0,0,0.8); 
-         /*         margin-top:20px;*/
-}
-.franja_logos{
 
-    padding:6px 4px; 
-    display:inline-block; 
-    opacity:0.8; 
-    filter:alpha(opacity=80); 
+#franja{
+    background:url(../images/franja.png) no-repeat center center;
+    background-size: cover;
+    height: 9em;
 
 }
-.franja_logos img {
 
-    margin: auto 16em;
+#franja a{
+    position: absolute; 
+    text-indent:9999px;
+    cursor: pointer;
+  }
+#franja a#logo_1 {
+    display:block; 
+    height:100px; 
+    width:204px; 
+    left: 50px}
+#franja a#logo_2 {
+    display:block; 
+    height:96px; 
+    width:260px; 
+    right: 50px}
 
-}
 .subcontendor{
     display: inline-block;
     width: 450px;
@@ -236,10 +243,14 @@
     list-style-position: inside;
     margin: 2em;
     font-size: 1.08em;
-    
+
 }
 .subcontendor .text_galeria #slider2 .bx-wrapper {
     margin: 0 auto;
 
 }
 
+#slider{
+    border: #000 solid thick;
+
+}

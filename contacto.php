@@ -13,7 +13,7 @@
                     <fieldset>
                         <h3>HORARIOS DE ATENCION</h3>
                     <p>Lunes a Viernes de</p>
-                    <p>9:00 a 18:00 hrs </p>
+                    <p>9:00 a 19:00 hrs </p>
                     </fieldset>
                 </div>
             </div>

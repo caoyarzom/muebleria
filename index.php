@@ -1,3 +1,7 @@
+<?php   
+require('visitas/countbdd.php');   
+echo $men;   
+?>  
 <!DOCTYPE html>
 <html>
 

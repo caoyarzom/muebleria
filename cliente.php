@@ -2,7 +2,7 @@
 <html>
 
     <body> 
-        <h2>Clientes que confían en nosotros. </h2>
+        <h2>Clientes que confían en nosotros </h2>
         <div class="orga-imaganes">
             <h2>DESA</h2>
             <div>
